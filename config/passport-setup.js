@@ -12,12 +12,13 @@ User.findById(id).then((user) => {
 done(null, user);
 });
 });
-
+//424572440393-pf1t91avb2s27642bn9psqv94l3soaav.apps.googleusercontent.com
+//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
 passport.use(
 new GoogleStrategy({
 // options for google strategy
-clientID: '424572440393-pf1t91avb2s27642bn9psqv94l3soaav.apps.googleusercontent.com',
-clientSecret:'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',
+clientID: '780391168365-rk24hn993p5vosr3b494j71bpranuegr.apps.googleusercontent.com',
+clientSecret:'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',
 callbackURL: '/auth/google/redirect'
 }, (accessToken, refreshToken, profile, done) => {
 // check if user already exists in our own db
